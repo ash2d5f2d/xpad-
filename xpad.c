@@ -159,6 +159,7 @@ static const struct xpad_device {
 	u8 quirks;
 } xpad_device[] = {
 	/* Please keep this list sorted by vendor and product ID. */
+    { 0x2563, 0x0526, "EvoFox Elite X / ShanWan Android Gamepad", 0, XTYPE_XBOX360 },
 	{ 0x0079, 0x18d4, "GPD Win 2 X-Box Controller", 0, XTYPE_XBOX360 },
 	{ 0x03eb, 0xff01, "Wooting One (Legacy)", 0, XTYPE_XBOX360 },
 	{ 0x03eb, 0xff02, "Wooting Two (Legacy)", 0, XTYPE_XBOX360 },
